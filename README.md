@@ -2,7 +2,9 @@
 
 A simple 2D game engine built in C# with Windows Forms, featuring a Frogger/Crossy Road inspired gameplay where a farmer collects animals while avoiding cars.
 
-## 🎮 Game Description
+![Game Screenshot](Untitled.png)
+
+## Game Description
 
 Control a farmer who must cross a busy road to collect farm animals (cats, chickens, cows, pigs) while avoiding traffic. The game features:
 - Score tracking (collect animals for points)
@@ -10,7 +12,7 @@ Control a farmer who must cross a busy road to collect farm animals (cats, chick
 - Win condition: Reach 800 points
 - Lose condition: Run out of lives
 
-## 🛠️ Technical Details
+## Technical Details
 
 **Technology Stack:**
 - C# (.NET Framework 4.8)
@@ -24,10 +26,10 @@ Control a farmer who must cross a busy road to collect farm animals (cats, chick
 - Event-driven architecture
 - Multi-threaded script execution
 
-## 📁 Project Structure
+## Project Structure
 
 ```
-2d-game-clean/
+otter-2d-game-engine/
 ├── src/                    # Source code
 │   ├── BGL.cs             # Main game form and rendering
 │   ├── GameClass.cs       # Core game logic
@@ -43,14 +45,14 @@ Control a farmer who must cross a busy road to collect farm animals (cats, chick
 └── README.md
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Visual Studio 2019 or later
 - .NET Framework 4.8
 
 ### Building the Project
-1. Open `OTTER.sln` in Visual Studio
+1. Open `src/OTTER.sln` in Visual Studio
 2. Restore NuGet packages (if any)
 3. Build solution (F6)
 4. Run (F5)
@@ -60,14 +62,14 @@ Control a farmer who must cross a busy road to collect farm animals (cats, chick
 - Collect animals to gain points
 - Avoid cars to preserve lives
 
-## 🎯 Game Rules
+## Game Rules
 
 - **Animals** (Cat, Chicken, Cow, Pig): +100 points each
 - **Cars**: Collision causes loss of life
 - **Win**: Reach 800 points
 - **Lose**: Lives reach 0
 
-## 🧩 Code Architecture
+## Code Architecture
 
 The engine uses a Scratch-like approach with:
 - **Scripts**: Methods that run in parallel using Tasks
@@ -87,28 +89,28 @@ private int MyScript()
 }
 ```
 
-## 📝 Notes
+## Notes
 
 - Originally developed as a learning project
 - Codebase has been translated to English for better accessibility
 - Designed for educational purposes to understand game engine fundamentals
 - XML documentation included for all public APIs
 
-## 🔮 Future Improvements
+## Future Improvements
 
 Potential enhancements:
-- [ ] Add sound effects and background music
-- [ ] Implement difficulty levels
-- [ ] Add more obstacle types
-- [ ] Create level progression system
-- [ ] Improve graphics and animations
-- [ ] Add power-ups and special abilities
+- Add sound effects and background music
+- Implement difficulty levels
+- Add more obstacle types
+- Create level progression system
+- Improve graphics and animations
+- Add power-ups and special abilities
 
-## 📄 License
+## License
 
 This project is provided as-is for educational purposes.
 
-## 🤝 Contributing
+## Contributing
 
 This is a learning project. Feel free to fork and experiment!
 
